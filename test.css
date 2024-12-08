@@ -1,0 +1,165 @@
+*{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4{
+    font-family: "Electrolize", serif;
+    font-weight: 500;
+    font-style: normal;}
+
+    .logoaulab{
+        height: 80px;
+        width: 80px;
+        top: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        
+    }
+
+    nav{    
+        background-image: linear-gradient(rgba(178, 192, 29, 0.32), rgb(201, 201, 28)); 
+        display: flex;  
+        justify-content: center;        
+    }
+
+    nav ul{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;   
+        padding: 20px;     
+    }
+        
+    .link{
+        color: black;
+        text-decoration: none; 
+        color:blue;
+    }
+    
+    .link:hover{
+        color: black;
+    }
+
+    .home{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        
+    }
+    .home:hover{
+        color: blue;
+    }
+    
+
+    .intestazione{
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(77, 77, 167, 0.2), rgba(40, 40, 108, 0.3)), url('./media/blu\ technology.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;  
+        text-align: center;  
+    } 
+    
+    h1{
+        font-size: 80px;
+        color: white;
+    }
+
+    .sottotitolo{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .leggitutto{
+        background-color: grey;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 2px solid black;
+        }
+        .leggitutto:hover{
+            color: rgb(255, 153, 0);
+        }
+
+        aside{
+            background-image: linear-gradient(rgb(159, 159, 18), rgb(219, 219, 191));
+        }
+
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        min-height: 70vh;
+        align-items: center;        
+    }
+    
+    
+    .data{
+        align-items: end;
+    }
+
+    .article-flex{
+        width: 60%;
+        height: 60vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   
+
+    .image{
+        width: 300px;
+    }
+    
+    
+    
+    nav li{
+        list-style-type:none;
+        margin: 0px 20px;
+    }  
+     
+    footer{
+        height: 25vh;
+        background-color: black;
+        color:white;
+    }
+
+   @media screen and (max-width: 600px) {
+    header{
+        min-height: 40vh;
+    }
+    h1{
+        font-size: 30px;
+    }
+    article{
+        width: 100%;
+        border: none;
+        margin: 0px 0px;
+    }
+    section{
+        width: 96%;
+        flex-direction: column;
+        
+    }
+    nav li{
+        list-style-type:none;
+        margin: 0px 3px;
+        font-size:7px;
+        width: 100%;
+        padding: 0px 0px;}
+
+        .logoaulab{
+            height: 36px;
+            width: 36px;
+            top: 0px;
+            margin-right: 0px;
+        padding: 0px 20px;
+    font-size: 10px;}       
+        }
+
